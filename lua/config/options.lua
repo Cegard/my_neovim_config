@@ -4,3 +4,12 @@
 vim.opt.winbar = "%=%m %f"
 vim.opt.guifont = "FiraCode Nerd Font Ret:h14"
 vim.opt.shell = "/usr/bin/nu"
+
+vim.filetype.add({
+	extension = {
+		tsx = "typescriptreact",
+		jsx = "javascriptreact",
+	},
+})
+
+vim.g.copilot_no_tab_map = true
